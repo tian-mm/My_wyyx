@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>wyyx</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but wyyx doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- 移动端适配 -->
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0 user-scalable=no">
+  <!-- <link rel="icon" href="<%= BASE_URL %>favicon.ico"> -->
+  <!-- 引入react.css -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <!-- 引入iconfont -->
+  <link rel="stylesheet" href="./css//iconfont.css">
+  <title>我的网易严选</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- 移动端适配 -->
+<!--   <script type="text/javascript">
+    // 移动端适配(自己写)
+    window.onload = function () {
+      function refreshRem() {
+        //获取屏幕的宽
+        let clientWidth = document.documentElement.clientWidth
+        // 将屏幕的宽等分
+        let rem = clientWidth / 10
+        // 设置根节点的字体大小
+        document.documentElement.style.fontSize = rem + 'px'
+        // 给body设置字体大小
+        document.body.style.fontSize = '12px'
+      }
+      // 当页面展示的时候
+       window.addEventListener("pageshow", function () {
+       refreshRem()
+       })
+       // 当窗口大小改变的时候
+       window.addEventListener("resize", function () {
+       refreshRem()
+       })
+
+    } -->
+    
+  </script>
+</body>
+
 </html>
