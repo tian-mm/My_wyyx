@@ -11,16 +11,26 @@
   <!-- 引入react.css -->
   <link rel="stylesheet" href="./css/reset.css">
   <!-- 引入iconfont -->
-  <link rel="stylesheet" href="./css//iconfont.css">
+  <link rel="stylesheet" href="./css/iconfont.css">
   <title>我的网易严选</title>
 </head>
+<style>
+  /* 禁止系统滚动条 */
+  /* html,body{
+    overflow: hidden;
+    height: 100%;
+  } */
+  body{
+    background-color: url(0,0,0,0.3)
+  }
+</style>
 
 <body>
   <div id="app"></div>
   <!-- 移动端适配 -->
-<!--   <script type="text/javascript">
+  <!--    <script type="text/javascript">
     // 移动端适配(自己写)
-    window.onload = function () {
+   window.onload = function () {
       function refreshRem() {
         //获取屏幕的宽
         let clientWidth = document.documentElement.clientWidth
@@ -40,8 +50,17 @@
        refreshRem()
        })
 
-    } -->
+    }
     
+  </script> -->
+  <!--解决移动端点击事件0.3延迟问题: 使用fastclick库-->
+  <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+  <script>
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMContentLoaded', function () {
+        FastClick.attach(document.body);
+      }, false);
+    }
   </script>
 </body>
 
