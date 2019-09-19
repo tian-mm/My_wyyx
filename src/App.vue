@@ -1,7 +1,7 @@
 <template>
   <div>
     <router-view></router-view>
-    <FooterGuide></FooterGuide>
+    <FooterGuide v-show="$route.meta.isShowFooter"></FooterGuide>
   </div>
 </template>
 
@@ -16,7 +16,10 @@ export default {
   },
   components:{
     FooterGuide
-  }
+  },
+  mounted() {
+    this.$store.dispatch('getClassify')
+  },
  }
 </script>
 

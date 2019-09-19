@@ -1,39 +1,1497 @@
 {
-  "classify": [{
-      "name": "新品首发",
-      "img": "http://yanxuan.nosdn.127.net/c6fd8835a6400b7da7a016ad85506b69.png"
-    },
-    {
-      "name": "居家生活",
-      "img": "https://yanxuan.nosdn.127.net/fede8b110c502ec5799702d5ec824792.png"
-    },
-    {
-      "name": "服饰鞋包",
-      "img": "https://yanxuan.nosdn.127.net/896a3beac514ae8f40aafe028e5fec56.png"
-    },
-    {
-      "name": "美食酒水",
-      "img": "http://yanxuan.nosdn.127.net/37520d1204a0c55474021b43dac2a69e.png"
-    },
-    {
-      "name": "个护清洁",
-      "img": "https://yanxuan.nosdn.127.net/6c3bd9d885c818b1f73e497335a68b47.png"
-    },
-    {
-      "name": "新品首发",
-      "img": "http://yanxuan.nosdn.127.net/c6fd8835a6400b7da7a016ad85506b69.png"
-    }, {
-      "name": "居家生活",
-      "img": "https://yanxuan.nosdn.127.net/fede8b110c502ec5799702d5ec824792.png"
-    }, {
-      "name": "服饰鞋包",
-      "img": "https://yanxuan.nosdn.127.net/896a3beac514ae8f40aafe028e5fec56.png"
-    }, {
-      "name": "美食酒水",
-      "img": "http://yanxuan.nosdn.127.net/37520d1204a0c55474021b43dac2a69e.png"
-    }, {
-      "name": "个护清洁",
-      "img": "http://yanxuan.nosdn.127.net/12e8efd15b9b210ab156a7ee9b340548.gif"
-    }
-  ]
+    "classify": [
+        {
+            "id": 0,
+            "code": 1,
+            "title": "推荐专区",
+            "list": [
+                {
+                    "title": "明星商品",
+                    "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "精选美食99选6",
+                    "img": "https://yanxuan.nosdn.127.net/a91deb0e8592ea6c5e402d71eadc6a64.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "男装季末特惠",
+                    "img": "https://yanxuan.nosdn.127.net/3e52cf9e7db8ff6eb442b83043ae44ce.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "员工特选好货",
+                    "img": "https://yanxuan.nosdn.127.net/c117ea2f1c4d978eb1f310d6d9ec3226.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "女装季末特惠",
+                    "img": "https://yanxuan.nosdn.127.net/fcbe22542c091f31d6a22a7e921edc8f.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "秋季换新好物",
+                    "img": "https://yanxuan.nosdn.127.net/c64660221bf28ededa6ba330dc5ddbf5.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "50元幸福好货",
+                    "img": "https://yanxuan.nosdn.127.net/0cb19987ddd873c693272c60352ba6a7.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "家装好物推荐",
+                    "img": "https://yanxuan.nosdn.127.net/33fbf26f90d8b8a470cfe4fcfc2f5fe8.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "99+好评",
+                    "img": "https://yanxuan.nosdn.127.net/cda4a56526a230055bea8221a6b7ab11.png?imageView&quality=85&thumbnail=144x144"
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196"
+                },
+                {
+                    "photo2": "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "code": 1,
+            "title": "换季专区",
+            "list": [
+                {
+                    "title": "滋补美食",
+                    "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "日用换新",
+                    "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "秋季收纳",
+                    "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "早秋床品",
+                    "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "补水护肤",
+                    "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "换季扫除",
+                    "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "秋日养生",
+                    "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "初秋穿搭",
+                    "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "室外健身",
+                    "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/c7de7e8850dc05df6943a1a39dce2558.jpg?imageView&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "code": 1,
+            "title": "爆品专区",
+            "list": [
+                {
+                    "title": "居家生活",
+                    "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "服饰鞋包",
+                    "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "美食酒水",
+                    "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "个护清洁",
+                    "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "运动旅行",
+                    "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "母婴亲子",
+                    "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "数码家电",
+                    "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "海外精选",
+                    "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "周边特色",
+                    "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/a8949ce34fdffff34db1b406d2640255.png?imageView&quality=75&thumbnail=0x196"
+                },
+                {
+                    "photo2": "https://yanxuan.nosdn.127.net/fd9bb8dd511541082fac86e84750b45c.jpg?imageView&quality=75&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "code": 1,
+            "title": "新品专区",
+            "list": [
+                {
+                    "title": "居家生活新品",
+                    "img": "https://yanxuan-item.nosdn.127.net/6b1f7d38b92d931766e2a36e79abcfc6.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "服饰鞋包新品",
+                    "img": "https://yanxuan-item.nosdn.127.net/6b1f7d38b92d931766e2a36e79abcfc6.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "美食酒水新品",
+                    "img": "https://yanxuan-item.nosdn.127.net/6b1f7d38b92d931766e2a36e79abcfc6.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "个护清洁新品",
+                    "img": "https://yanxuan-item.nosdn.127.net/6b1f7d38b92d931766e2a36e79abcfc6.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "运动旅行新品",
+                    "img": "https://yanxuan-item.nosdn.127.net/6b1f7d38b92d931766e2a36e79abcfc6.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "母婴亲子新品",
+                    "img": "https://yanxuan-item.nosdn.127.net/6b1f7d38b92d931766e2a36e79abcfc6.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "数码家电新品",
+                    "img": "https://yanxuan-item.nosdn.127.net/6b1f7d38b92d931766e2a36e79abcfc6.png?imageView&quality=85&thumbnail=144x144"
+                },
+                {
+                    "title": "全球特色",
+                    "img": "https://yanxuan-item.nosdn.127.net/6b1f7d38b92d931766e2a36e79abcfc6.png?imageView&quality=85&thumbnail=144x144"
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/dec6ff5ae8bae410809598950ba1f5b4.jpg?imageView&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "code": 2,
+            "title": "居家生活",
+            "titleList": [
+                {
+                    "titleName": "秋冬好物",
+                    "titleItem": [
+                        {
+                            "titleItemName": "秋冬好物",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "主体床品",
+                            "img": "https://yanxuan.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "北欧原木",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "餐厨系列",
+                            "img": "https://yanxuan.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "床上用品",
+                    "titleItem": [
+                        {
+                            "titleItemName": "床品件套",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "被枕盖毯",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "床垫被褥",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "家具家装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "客餐厅家具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "卧室家具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "办公书房家具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "小件家具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "灯具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "地毯窗帘",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "收纳日用",
+                    "titleItem": [
+                        {
+                            "titleItemName": "收纳",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "晾晒除味",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "毛巾浴巾",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "居家拖鞋",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "家庭医疗",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "厨房用品",
+                    "titleItem": [
+                        {
+                            "titleItemName": "锅具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "餐厨配件",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "刀剪粘板",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "餐具水具",
+                    "titleItem": [
+                        {
+                            "titleItemName": "餐具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "水具杯壶",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "擦擦酒具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "宠物生活",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/61932db76f2cd031cb6396408f803808.jpg?imageView&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "code": 2,
+            "title": "服饰鞋包",
+            "titleList": [
+                {
+                    "titleName": "当季热销",
+                    "titleItem": [
+                        {
+                            "titleItemName": "秋季新品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "热卖爆款",
+                            "img": "https://yanxuan.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "抄底特惠",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "男装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "男士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士针织衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士外套",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士裤装",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士牛仔",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士T恤",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "女装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "居家内衣",
+                    "titleItem": [
+                        {
+                            "titleItemName": "收纳",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "晾晒除味",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "毛巾浴巾",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "居家拖鞋",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "家庭医疗",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "鞋靴",
+                    "titleItem": [
+                        {
+                            "titleItemName": "锅具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "餐厨配件",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "刀剪粘板",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "箱包",
+                    "titleItem": [
+                        {
+                            "titleItemName": "餐具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "水具杯壶",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "擦擦酒具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "首饰配件",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/71e3d7451dca16699a5df4d9f51ea9c0.jpg?imageView&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "code": 2,
+            "title": "美食酒水",
+            "titleList": [
+                {
+                    "titleName": "精品美食",
+                    "titleItem": [
+                        {
+                            "titleItemName": "秋季新品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "热卖爆款",
+                            "img": "https://yanxuan.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "抄底特惠",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "休闲零食",
+                    "titleItem": [
+                        {
+                            "titleItemName": "男士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士针织衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士外套",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士裤装",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士牛仔",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士T恤",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "坚果蜜饯",
+                    "titleItem": [
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "冲饮茗茶",
+                    "titleItem": [
+                        {
+                            "titleItemName": "收纳",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "晾晒除味",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "毛巾浴巾",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "居家拖鞋",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "家庭医疗",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "滋补保健",
+                    "titleItem": [
+                        {
+                            "titleItemName": "锅具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "餐厨配件",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "刀剪粘板",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "酒水饮料",
+                    "titleItem": [
+                        {
+                            "titleItemName": "餐具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "水具杯壶",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "擦擦酒具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "生鲜特色",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/e71c18948044771a7ebd4c9cc551ce8a.png?imageView&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "code": 2,
+            "title": "个护清洁",
+            "titleList": [
+                {
+                    "titleName": "好物精选",
+                    "titleItem": [
+                        {
+                            "titleItemName": "爆款榜单",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "新品尝鲜",
+                            "img": "https://yanxuan.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "面部护理",
+                    "titleItem": [
+                        {
+                            "titleItemName": "男士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士针织衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士外套",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士裤装",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士牛仔",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士T恤",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "个人护理",
+                    "titleItem": [
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "彩妆香水",
+                    "titleItem": [
+                        {
+                            "titleItemName": "收纳",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "晾晒除味",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "毛巾浴巾",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "居家拖鞋",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "家庭医疗",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "个护电器",
+                    "titleItem": [
+                        {
+                            "titleItemName": "锅具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "餐厨配件",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "刀剪粘板",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "纸品清洁",
+                    "titleItem": [
+                        {
+                            "titleItemName": "餐具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "水具杯壶",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "擦擦酒具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "家清卫浴",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/73e8dfdda753de91e028da67a0963c1a.png?imageView&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "code": 2,
+            "title": "母婴亲子",
+            "titleList": [
+                {
+                    "titleName": "婴童精选",
+                    "titleItem": [
+                        {
+                            "titleItemName": "秋季新品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "热卖爆款",
+                            "img": "https://yanxuan.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "抄底特惠",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "童装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "男士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士针织衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士外套",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士裤装",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士牛仔",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士T恤",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "童鞋",
+                    "titleItem": [
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "西湖喂养",
+                    "titleItem": [
+                        {
+                            "titleItemName": "收纳",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "晾晒除味",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "毛巾浴巾",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "居家拖鞋",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "家庭医疗",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "孕产妈咪",
+                    "titleItem": [
+                        {
+                            "titleItemName": "锅具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "餐厨配件",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "刀剪粘板",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "玩具图书",
+                    "titleItem": [
+                        {
+                            "titleItemName": "餐具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "水具杯壶",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "擦擦酒具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "婴童寝具",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/99818d29b6d1eb03477ba2874a119d6d.jpg?imageView&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "code": 2,
+            "title": "运动旅行",
+            "titleList": [
+                {
+                    "titleName": "当季热销",
+                    "titleItem": [
+                        {
+                            "titleItemName": "秋季新品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "热卖爆款",
+                            "img": "https://yanxuan.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "抄底特惠",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动男装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "男士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士针织衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士外套",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士裤装",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士牛仔",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士T恤",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动女装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动鞋",
+                    "titleItem": [
+                        {
+                            "titleItemName": "收纳",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "晾晒除味",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "毛巾浴巾",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "居家拖鞋",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "家庭医疗",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "旅行用品",
+                    "titleItem": [
+                        {
+                            "titleItemName": "锅具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "餐厨配件",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "刀剪粘板",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "户外露营",
+                    "titleItem": [
+                        {
+                            "titleItemName": "餐具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "水具杯壶",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "擦擦酒具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动健身",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动配件",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/dc1a495164dc517203f086356e4a6291.jpg?imageView&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "code": 2,
+            "title": "数码家电",
+            "titleList": [
+                {
+                    "titleName": "当季热销",
+                    "titleItem": [
+                        {
+                            "titleItemName": "秋季新品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "热卖爆款",
+                            "img": "https://yanxuan.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "抄底特惠",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动男装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "男士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士针织衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士外套",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士裤装",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士牛仔",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士T恤",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动女装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动鞋",
+                    "titleItem": [
+                        {
+                            "titleItemName": "收纳",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "晾晒除味",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "毛巾浴巾",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "居家拖鞋",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "家庭医疗",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "旅行用品",
+                    "titleItem": [
+                        {
+                            "titleItemName": "锅具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "餐厨配件",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "刀剪粘板",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "户外露营",
+                    "titleItem": [
+                        {
+                            "titleItemName": "餐具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "水具杯壶",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "擦擦酒具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动健身",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动配件",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/dc1a495164dc517203f086356e4a6291.jpg?imageView&thumbnail=0x196"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "code": 2,
+            "title": "全球特色",
+            "titleList": [
+                {
+                    "titleName": "当季热销",
+                    "titleItem": [
+                        {
+                            "titleItemName": "秋季新品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "热卖爆款",
+                            "img": "https://yanxuan.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "抄底特惠",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动男装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "男士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士针织衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士外套",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士裤装",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士牛仔",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "男士T恤",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动女装",
+                    "titleItem": [
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "女士衬衫",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动鞋",
+                    "titleItem": [
+                        {
+                            "titleItemName": "收纳",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "晾晒除味",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "毛巾浴巾",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "居家拖鞋",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "家庭医疗",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "旅行用品",
+                    "titleItem": [
+                        {
+                            "titleItemName": "锅具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "餐厨配件",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "刀剪粘板",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "户外露营",
+                    "titleItem": [
+                        {
+                            "titleItemName": "餐具",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "水具杯壶",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "擦擦酒具",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动健身",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                },
+                {
+                    "titleName": "运动配件",
+                    "titleItem": [
+                        {
+                            "titleItemName": "宠物食品",
+                            "img": "https://yanxuan.nosdn.127.net/749f0ba087d2035b6d2937b4919952de.png?imageView&quality=85&thumbnail=144x144"
+                        },
+                        {
+                            "titleItemName": "宠物用品",
+                            "img": "https://.nosdn.127.net/0fe3073506c10f604c4ed7e0ba65d1f4.png?imageView&quality=85&thumbnail=144x144"
+                        }
+                    ]
+                }
+            ],
+            "photos": [
+                {
+                    "photo1": "https://yanxuan.nosdn.127.net/dc1a495164dc517203f086356e4a6291.jpg?imageView&thumbnail=0x196"
+                }
+            ]
+        }
+    ]
 }

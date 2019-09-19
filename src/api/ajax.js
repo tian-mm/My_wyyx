@@ -6,7 +6,7 @@ export default function ajax(url, data = {}, method = "GET") {
   // 返回一个promise对象
   return new Promise((resolve, reject) => {
     let promise
-    if (method = "GET") {
+    if (method === "GET") {
       promise = axios.get(url, {
         params: data
       })
@@ -22,6 +22,7 @@ export default function ajax(url, data = {}, method = "GET") {
       // 失败的回调
       error =>{
         reject('请求异常' + error)
+        console.log(error.message)
       }
     )
   })

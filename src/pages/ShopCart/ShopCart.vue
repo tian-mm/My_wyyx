@@ -74,6 +74,7 @@ export default {
       background-color #F4F4F4
       position relative
       height 1100px
+      width 100%
       .content-shop
         position absolute
         top 400px

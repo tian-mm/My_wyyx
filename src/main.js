@@ -6,6 +6,14 @@ import App from './App.vue'
 import 'lib-flexible/flexible'
 // 引入路由
 import router from './router'
+// 引入store对象
+import store from './store/store'
+// 引入mock
+import './mock/mock.server.js'
+// 引入Header组件
+import Header from './components/Header/Header.vue'
+// 将Header组件注册为全局组件
+Vue.component('Header', Header)
 // 引入mint-ui
 import {
   Button
@@ -16,6 +24,7 @@ Vue.component(Button.name, Button)
 Vue.config.productionTip = false
 new Vue({
   render:h=>h(App),
-  router
+  router,
+  store
 }).$mount('#app')
 

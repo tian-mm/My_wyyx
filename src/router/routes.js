@@ -11,34 +11,51 @@ import ShopCart from '../pages/ShopCart/ShopCart.vue'
 import Profile from '../pages/Profile/Profile.vue'
 // 搜索
 import Search from '../pages/Search/Search.vue'
-
-export default [
-  {
-    path:'/firstview',
-    component: FirstView
+export default [{
+    path: '/firstview',
+    component: FirstView,
+    // 是否显示footer组件
+    meta: {
+      isShowFooter: true
+    }
   },
   {
-    path:'/classify',
-    component: Classify
+    path: '/classify',
+    component: Classify,
+    meta: {
+      isShowFooter: true
+    }
   },
   {
-    path:'/things',
-    component: Things
+    path: '/things',
+    component: Things,
+    meta: {
+      isShowFooter: true
+    }
   },
   {
-    path:'/shopcart',
-    component: ShopCart
+    path: '/shopcart',
+    component: ShopCart,
+    meta: {
+      isShowFooter: true
+    }
   },
   {
-    path:'/profile',
-    component: Profile
+    path: '/profile',
+    component: Profile,
+    meta: {
+      isShowFooter: false
+    }
   },
   {
-    path:'/search',
-    component: Search
+    path: '/search',
+    component: Search,
+    meta: {
+      isShowFooter: false
+    }
   },
   {
-    path:'/',
-    redirect: '/firstview'  //重定向
+    path: '/',
+    redirect: '/firstview' //重定向
   }
 ]

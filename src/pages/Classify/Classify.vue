@@ -12,62 +12,11 @@
       <!-- 左侧 -->
       <div ref="wrapper" class="classify-content-left">
         <ul class="content-left-list">
-          <li class="item active">
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-           <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
-          </li>
-          <li>
-            <span>推荐专区</span>
+          <!-- item active -->
+          <li class="item" v-for="(li,index) in list" :key="index" :class="{active:isActive === index}" @click="isActive = index">
+            <span >{{li.title}}</span>
           </li>
         </ul>
-
       </div>
       <!-- 右侧 滑动 -->
       <div ref="swipersecond" class="classify-content-right">
@@ -137,11 +86,17 @@ import BScroll from "better-scroll";
 import Swiper from "swiper";
 // 引入样式
 import "swiper/dist/css/swiper.css";
+// import {reqClassify} from '../../api'
+// 引入
+import {mapState} from 'vuex'
 export default {
   data() {
-    return {};
+    return {
+      // list:[]
+      isActive:0  // 左侧列表是否高亮显示,默认显示第一个
+    };
   },
-  mounted() {
+ async mounted() {
     // 保证下一次DOM渲染完成之后才会执行
     this.$nextTick(() => {
       if (!this.scroll1) {
@@ -178,12 +133,22 @@ export default {
         }
       });
     });
+    
+    // const result = await reqClassify()
+    //  if (result.code === 0) {
+    //   const list = result.data
+    //   this.list = list
+    //  }
   },
   methods: {
     goSearch() {
       this.$router.replace("/search");
     },
-  }
+
+  },
+    computed: {
+      ...mapState(['list'])
+    },
 };
 </script>
 
@@ -232,18 +197,19 @@ export default {
       box-sizing border-box
       padding 10px 0px
       margin-right 10px
+      padding-bottom 1000px
       .content-left-list
         li
           width 162px
           height 50px
           line-height 50px
           text-align center
-          margin-bottom 30px
+          margin-bottom 55px
           position relative
           span
             font-size 30px
             text-align center
-            // 高亮滑块
+            // 高亮滑块z
           &.active
             color #ab2b2b
         .item.active:after
@@ -288,4 +254,5 @@ export default {
               width 144px
               height 72px
               text-align center
+              font-size 25px
 </style>

@@ -1,4 +1,8 @@
 // 引入Mock
-var Mock = require('mockjs')
+import Mock from 'mockjs'
 // 引入data.json文件
-import moduleName from './data.json'
+import data from './data.json'
+Mock.mock('/aaa', {
+  code: 0,
+  data: data.classify
+})
