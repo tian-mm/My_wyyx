@@ -196,6 +196,8 @@ export default {
     },           // 跳转到search页面
     goSearch() {
       this.$router.replace("/search");
+      
+     
     },
   },
   mounted() {
@@ -208,6 +210,7 @@ export default {
         })
       }
     });
+    
   }
 };
 </script>

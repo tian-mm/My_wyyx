@@ -11,5 +11,19 @@
          ]
        }
      }
-   }
+   },
+    // 配置跨域
+     devServer: {
+    proxy: {
+      '/api': {
+        target: 'http://m.you.163.com', // 目录地址
+        changeOrigin: true, //是否跨域
+        pathRewrite: {
+          '^/api': '', // rewrite path
+         
+        },
+      }
+    }
+  }
+
  }

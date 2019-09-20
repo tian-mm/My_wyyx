@@ -209,7 +209,6 @@ export default {
           span
             font-size 30px
             text-align center
-            // 高亮滑块z
           &.active
             color #ab2b2b
         .item.active:after

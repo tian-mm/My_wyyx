@@ -3,10 +3,8 @@
     <i class="iconfont icon-home" @click="$router.replace('/')"></i>
     <!-- <img slot="logo" src="../../../public/imgs/logo/logo.png" alt /> -->
     <slot name="logo">
-      <!-- <a href="javascript:;">发现</a>
-      <a href="javascript:;">甄选家</a>-->
-      <div class="find active">发现</div>
-      <div class="zxj">甄选家</div>
+      <router-link to='/things/tab' active-class = 'active'>发现</router-link>
+      <router-link to='/things/index' active-class = 'active'>甄选家</router-link>
     </slot>
     <div class="icon-right">
       <i class="iconfont icon-sousuo" @click="$router.replace('/search')"></i>
@@ -14,7 +12,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   data() {
@@ -30,20 +27,16 @@ export default {
   box-sizing border-box
   background #FAFAFA
   display flex
+  align-items center
   padding 0px 40px
-  line-height 90px
+  position relative
+  .active
+    font-size 30px
+    margin-right 30px
+    color red
+    font-weight bold
   .img
     display block
-  .find
-    font-size 40px
-    margin-right 20px
-    &.active
-      color red
-      font-weight bold
-  .zxj
-    font-size 30px
-    margin-right 20px
-    margin-right 90px
   i
     font-size 60px
   .icon-home
@@ -54,6 +47,8 @@ export default {
     vertical-align middle
     margin-right 160px
   .icon-right
+    position absolute
+    left 560px
     .icon-sousuo
       margin-right 20px
 </style>

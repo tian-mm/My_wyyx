@@ -11,6 +11,13 @@ import ShopCart from '../pages/ShopCart/ShopCart.vue'
 import Profile from '../pages/Profile/Profile.vue'
 // 搜索
 import Search from '../pages/Search/Search.vue'
+// 引入发现
+import Tab from '../pages/Things/Tab.vue'
+// 引入甄选家
+import Index from '../pages/Things/Index.vue'
+
+import NavItem from '../pages/Things/NavItem.vue'
+
 export default [{
     path: '/firstview',
     component: FirstView,
@@ -31,7 +38,34 @@ export default [{
     component: Things,
     meta: {
       isShowFooter: true
-    }
+    },
+    children:[
+      {
+        path:'/things/tab', 
+        component: Tab,
+        children:[
+          {
+            path: '/things/tab/navitem/:id', //路由传参
+            component: NavItem
+          },
+          {
+            path: '/things/tab',
+            redirect: '/things/tab/navitem/0'
+          }
+        ],
+
+
+      },
+      {
+        path: '/things/index',
+        component: Index
+       },
+       {
+         path:'/things',
+         redirect: '/things/tab'
+       }
+
+    ]
   },
   {
     path: '/shopcart',

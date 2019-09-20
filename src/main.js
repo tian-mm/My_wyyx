@@ -7,7 +7,7 @@ import 'lib-flexible/flexible'
 // 引入路由
 import router from './router'
 // 引入store对象
-import store from './store/store'
+import store from './store/index.js'
 // 引入mock
 import './mock/mock.server.js'
 // 引入Header组件

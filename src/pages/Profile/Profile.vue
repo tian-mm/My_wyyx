@@ -1,7 +1,7 @@
 <template>
   <div class="profileContainer">
     <Header>
-      <img class="img" slot="logo" src="../../../public/imgs/logo/logo.png" alt />
+      <img @click="$router.replace('/')" class="img" slot="logo" src="../../../public/imgs/logo/logo.png" alt />
     </Header>
     <div class="profile-content">
       <div class="wyyx">
@@ -30,30 +30,16 @@
         </div>
       </div>
     </div>
-    <!-- 登录页面 -->
-    <!-- 手机登录页面 -->
-    <!-- <div class="login-view">
-      手机方式登录页面
-      <div class="login-phone-view">
-          <div class="logo">
-            <img src="../../../public/imgs/wyyx.png" alt="">
-          </div>
-          <div class="login-item">
-            <form>
-              <div>
-                <input type="tel">
-              </div>
-            </form>
-          </div>
-      </div>
-    </div> -->
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {};
+    return {  
+      // loginType -> 有三种状态,1 -> 登录页面,2 -> 手机登录页面 , 3 
+      // loginType:1 
+    };
   }
 };
 </script>
