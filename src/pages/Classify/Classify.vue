@@ -12,69 +12,14 @@
       <!-- 左侧 -->
       <div ref="wrapper" class="classify-content-left">
         <ul class="content-left-list">
-          <!-- item active -->
-          <li class="item" v-for="(li,index) in list" :key="index" :class="{active:isActive === index}" @click="isActive = index">
-            <span >{{li.title}}</span>
+          <li  class="item" @click="goItem(li.id)" v-for="(li,index) in list" :key="li.id" :class="{active:isActive === li.id}">
+           <!-- <router-link :class="{'active':isActive === li.id}" :to="`/classify/classifyright/${li.id}`"></router-link> -->
+           {{li.title}}
           </li>
         </ul>
       </div>
-      <!-- 右侧 滑动 -->
-      <div ref="swipersecond" class="classify-content-right">
-        <div class="swiper2">
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="../../../public/imgs/plantings/1.jpg" alt />
-              </div>
-              <div class="swiper-slide">
-                <img src="../../../public/imgs/plantings/2.jpg" alt />
-              </div>
-            </div>
-            <!-- 如果需要分页器 -->
-            <div class="swiper-pagination"></div>
-          </div>
-          <ul class="classify-content-list">
-            <li>
-              <img src="../../../public/imgs/classify/1.png" alt />
-              <div>
-                明星商品
-              </div>
-            </li>
-            <li>
-              <img src="../../../public/imgs/classify/1.png" alt />
-              <div>明星商品</div>
-            </li>
-            <li>
-              <img src="../../../public/imgs/classify/1.png" alt />
-              <div>明星商品</div>
-            </li>
-            <li>
-              <img src="../../../public/imgs/classify/1.png" alt />
-              <div>明星商品</div>
-            </li>
-            <li>
-              <img src="../../../public/imgs/classify/1.png" alt />
-              <div>明星商品</div>
-            </li>
-            <li>
-              <img src="../../../public/imgs/classify/1.png" alt />
-              <div>明星商品</div>
-            </li>
-            <li>
-              <img src="../../../public/imgs/classify/1.png" alt />
-              <div>明星商品</div>
-            </li>
-                        <li>
-              <img src="../../../public/imgs/classify/1.png" alt />
-              <div>明星商品</div>
-            </li>
-            <li>
-              <img src="../../../public/imgs/classify/1.png" alt />
-              <div>明星商品</div>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <!-- 右侧滑动 -->
+      <router-view :goodItem='list[currentIndex]'></router-view>
     </div>
   </div>
 </template>
@@ -86,14 +31,13 @@ import BScroll from "better-scroll";
 import Swiper from "swiper";
 // 引入样式
 import "swiper/dist/css/swiper.css";
-// import {reqClassify} from '../../api'
 // 引入
 import {mapState} from 'vuex'
 export default {
   data() {
     return {
-      // list:[]
-      isActive:0  // 左侧列表是否高亮显示,默认显示第一个
+      isActive:0,  // 左侧列表是否高亮显示,默认显示第一个
+      currentIndex:0 ,  //当前的索引 
     };
   },
  async mounted() {
@@ -105,15 +49,6 @@ export default {
         })
       }
     });
-
-    // 保证下一次DOM渲染完成之后才会执行
-    this.$nextTick(() => {
-      if (!this.scroll2) {
-        this.scroll2 = new BScroll(this.$refs.swipersecond, {
-          click: true
-        });
-      }
-    })
     // 页面真正加载完之后再new Swiper对象
     this.$nextTick(() => {
       this.mySwiper = new Swiper(".swiper-container", {
@@ -128,32 +63,30 @@ export default {
         pagination: {
           // 社置分页器的容器
           el: ".swiper-pagination"
-          // 设置分页器的样式
-          // type:'bullets'
         }
       });
     });
-    
-    // const result = await reqClassify()
-    //  if (result.code === 0) {
-    //   const list = result.data
-    //   this.list = list
-    //  }
   },
   methods: {
     goSearch() {
       this.$router.replace("/search");
     },
-
+    goItem(id){
+      this.isActive = id
+      this.currentIndex = id  //修改data中的索引 --> 为当前点击的索引
+      this.$router.replace(`/classify/classifyright/${id}`)
+    }
   },
     computed: {
-      ...mapState(['list'])
+      ...mapState(['list']),
+
     },
 };
 </script>
 
 <style  lang="stylus" rel="stylesheet/stylus" scoped>
 .classifyContainer
+  overflow hidden
   .classifyHeader
     width 100%
     height 88px
@@ -197,20 +130,19 @@ export default {
       box-sizing border-box
       padding 10px 0px
       margin-right 10px
-      padding-bottom 1000px
       .content-left-list
-        li
+        padding-top 30px
+        padding-bottom 200px
+        .item
           width 162px
           height 50px
           line-height 50px
-          text-align center
           margin-bottom 55px
           position relative
-          span
-            font-size 30px
-            text-align center
+          text-align center
           &.active
             color #ab2b2b
+            font-size 30px
         .item.active:after
           content ''
           position absolute
@@ -220,38 +152,7 @@ export default {
           width 5px
           height 50px
           background-color #ab2b2b
-    .classify-content-right
-      width 528px
-      height 1097px
-      .swiper2
-        width 100%
-        height 1200px
-        position relative
-        .swiper-container
-          width 528px
-          height 192px
-          margin 20px auto
-          background-color white
-          position relative
-          .swiper-wrapper
-            width 100%
-            height 192px
-            img
-              width 100%
-              height 192px
-        .classify-content-list
-          width 528px
-          height 648px
-          position relative
-          li
-            float left
-            margin-left 20px
-            img
-              width 144px
-              height 144px
-            div
-              width 144px
-              height 72px
-              text-align center
-              font-size 25px
+
+     
+
 </style>

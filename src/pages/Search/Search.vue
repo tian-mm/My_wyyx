@@ -4,10 +4,10 @@
       <div class="header-search">
         <input
           class="input"
-          placeholder="女士可机洗毛衫 上新"
+          placeholder="入秋神奇"
           type="text"
           v-model="namekeys"
-          @keydown="search"
+          @input="search"
         />
         <img src="../../../public/imgs/search.png" alt />
       </div>
@@ -30,10 +30,11 @@
         <h3>热门搜索</h3>
       </div>
       <ul class="search-list">
-        <li  :class="{active:li.highlight === 1}" v-for="(li,index) in defaultkeyWord.hotKeywordVOList" :key="index">
-          {{li.keyword}}
+        <li :class="{active:li.highlight === 1}" v-for="(li,index) in defaultkeyWord.hotKeywordVOList" :key="index">
+         <a :href="li.schemeUrl">{{li.keyword}}</a>
           <span class="active"></span>
         </li>
+        
       </ul>
     </div>
   </div>
@@ -49,13 +50,23 @@ export default {
     };
   },
   methods: {
+
     search() {
+      this.id
       // 获取到用户的关键字
       const namekeys = this.namekeys.trim();
       // 判断用户是否输入
       // this.$store.dispatch( "获取到actions对象中的方法名",参数)
+      // 使用防抖 --> 搜索时等用户完整输入内容后再发送查询请求
       if (namekeys) {
-        this.$store.dispatch("getKeyWord", namekeys);
+        // 防抖,有问题
+        if (this.id) {
+          clearTimeout(this.id)
+        }
+       this.id = setTimeout(() => {
+          this.$store.dispatch("getKeyWord", namekeys);
+        }, 1000);
+        
          
       }
     },

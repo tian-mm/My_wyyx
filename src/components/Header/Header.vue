@@ -30,6 +30,7 @@ export default {
   align-items center
   padding 0px 40px
   position relative
+  z-index 9
   .active
     font-size 30px
     margin-right 30px

@@ -1,7 +1,9 @@
 <template>
   <div class="firstViewContainer">
+
+
     <!-- 头部 -->
-      <div class="header">
+    <div class="header">
         <div class="viewHeader">
         <!-- <slot name="left"></slot> -->
         <img class="logo" src="../../../public/imgs/logo/logo.png" alt />
@@ -50,126 +52,131 @@
     <div v-show="isShowNavAll" class="navMask"></div>
     <!-- 箭头 -->
     <div class="allNav" @click="showAllNav">
-      <img src="../../../public/imgs/closed.png" alt />
+      <img :class="{'jiantou':isShowNavAll}" src="../../../public/imgs/closed.png" alt />
     </div>
-    <!-- 轮播图 -->
-    <Plantings />
 
-    <div class="ensure">
-      <div class="ensureItem">
-        <img src="../../../public/imgs/wy.png" alt />
-        <span>网易自营品品牌</span>
+
+<!-- ================== -->
+    <div ref="wrapper2" class="hua-view">
+      <div class="hua-view-inside">
+        <Plantings />
+        <div class="ensure">
+          <div class="ensureItem">
+            <img src="../../../public/imgs/wy.png" alt />
+            <span>网易自营品品牌</span>
+          </div>
+          <div class="ensureItem">
+            <img src="../../../public/imgs/baozheng.png" alt />
+            <span>30天无忧退货</span>
+          </div>
+          <div class="ensureItem">
+            <img src="../../../public/imgs/48h.png" alt />
+            <span>48小时快速退款</span>
+          </div>
       </div>
-      <div class="ensureItem">
-        <img src="../../../public/imgs/baozheng.png" alt />
-        <span>30天无忧退货</span>
+          <!-- 分类 -->
+      <div class="goodsSort">
+        <ul>
+          <li>
+            <img src="../../../public/imgs/goodsSort/1.png" alt />
+            <p>新品首发</p>
+          </li>
+          <li>
+            <img src="../../../public/imgs/goodsSort/2.png" alt />
+            <p>新品首发</p>
+          </li>
+          <li>
+            <img src="../../../public/imgs/goodsSort/3.png" alt />
+            <p>新品首发</p>
+          </li>
+          <li>
+            <img src="../../../public/imgs/goodsSort/1.png" alt />
+            <p>新品首发</p>
+          </li>
+          <li>
+            <img src="../../../public/imgs/goodsSort/2.png" alt />
+            <p>新品首发</p>
+          </li>
+          <li>
+            <img src="../../../public/imgs/goodsSort/3.png" alt />
+            <p>新品首发</p>
+          </li>
+          <li>
+            <img src="../../../public/imgs/goodsSort/1.png" alt />
+            <p>新品首发</p>
+          </li>
+          <li>
+            <img src="../../../public/imgs/goodsSort/2.png" alt />
+            <p>新品首发</p>
+          </li>
+          <li>
+            <img src="../../../public/imgs/goodsSort/3.png" alt />
+            <p>新品首发</p>
+          </li>
+          <li>
+            <img src="../../../public/imgs/goodsSort/6.gif" alt />
+            <p>新品首发</p>
+          </li>
+        </ul>
       </div>
-      <div class="ensureItem">
-        <img src="../../../public/imgs/48h.png" alt />
-        <span>48小时快速退款</span>
-      </div>
-    </div>
-    <!-- 分类 -->
-    <div class="goodsSort">
-      <ul>
-        <li>
-          <img src="../../../public/imgs/goodsSort/1.png" alt />
-          <p>新品首发</p>
-        </li>
-        <li>
-          <img src="../../../public/imgs/goodsSort/2.png" alt />
-          <p>新品首发</p>
-        </li>
-        <li>
-          <img src="../../../public/imgs/goodsSort/3.png" alt />
-          <p>新品首发</p>
-        </li>
-        <li>
-          <img src="../../../public/imgs/goodsSort/1.png" alt />
-          <p>新品首发</p>
-        </li>
-        <li>
-          <img src="../../../public/imgs/goodsSort/2.png" alt />
-          <p>新品首发</p>
-        </li>
-        <li>
-          <img src="../../../public/imgs/goodsSort/3.png" alt />
-          <p>新品首发</p>
-        </li>
-        <li>
-          <img src="../../../public/imgs/goodsSort/1.png" alt />
-          <p>新品首发</p>
-        </li>
-        <li>
-          <img src="../../../public/imgs/goodsSort/2.png" alt />
-          <p>新品首发</p>
-        </li>
-        <li>
-          <img src="../../../public/imgs/goodsSort/3.png" alt />
-          <p>新品首发</p>
-        </li>
-        <li>
-          <img src="../../../public/imgs/goodsSort/6.gif" alt />
-          <p>新品首发</p>
-        </li>
-      </ul>
-    </div>
-    <!-- 新人专享礼 -->
-    <div class="newPeople">
-      <p>
-        <span>-新人专享礼-</span>
-      </p>
-      <div class="newPeople-all">
-        <div class="all-left">
-          <div>
-            <span>新人专享礼包</span>
-          </div>
-          <img src="../../../public/imgs/goodsSort/new1.png" alt />
-        </div>
-        <div class="all-right">
-          <div class="all-right-all all-right-top">
-            <div class="text">
-              <span>福利社</span>
+          <!-- 新人专享礼 -->
+      <div class="newPeople">
+        <p>
+          <span>-新人专享礼-</span>
+        </p>
+        <div class="newPeople-all">
+          <div class="all-left">
+            <div>
+              <span>新人专享礼包</span>
             </div>
-            <img src="../../../public/imgs/goodsSort/new2.png" alt />
+            <img src="../../../public/imgs/goodsSort/new1.png" alt />
           </div>
-          <div class="all-right-all all-right-bottom">
-            <div class="text">
-              <span>新人拼团</span>
+          <div class="all-right">
+            <div class="all-right-all all-right-top">
+              <div class="text">
+                <span>福利社</span>
+              </div>
+              <img src="../../../public/imgs/goodsSort/new2.png" alt />
             </div>
-            <img src="../../../public/imgs/goodsSort/new2.png" alt />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- 新人专享礼 -->
-    <div class="newPeople">
-      <p>
-        <span>-新人专享礼-</span>
-      </p>
-      <div class="newPeople-all">
-        <div class="all-left">
-          <div>
-            <span>新人专享礼包</span>
-          </div>
-          <img src="../../../public/imgs/goodsSort/new1.png" alt />
-        </div>
-        <div class="all-right">
-          <div class="all-right-all all-right-top">
-            <div class="text">
-              <span>福利社</span>
+            <div class="all-right-all all-right-bottom">
+              <div class="text">
+                <span>新人拼团</span>
+              </div>
+              <img src="../../../public/imgs/goodsSort/new2.png" alt />
             </div>
-            <img src="../../../public/imgs/goodsSort/new2.png" alt />
-          </div>
-          <div class="all-right-all all-right-bottom">
-            <div class="text">
-              <span>新人拼团</span>
-            </div>
-            <img src="../../../public/imgs/goodsSort/new2.png" alt />
           </div>
         </div>
       </div>
-    </div>
+              <!-- 新人专享礼 -->
+      <div class="newPeople">
+        <p>
+          <span>-新人专享礼-</span>
+        </p>
+        <div class="newPeople-all">
+          <div class="all-left">
+            <div>
+              <span>新人专享礼包</span>
+            </div>
+            <img src="../../../public/imgs/goodsSort/new1.png" alt />
+          </div>
+          <div class="all-right">
+            <div class="all-right-all all-right-top">
+              <div class="text">
+                <span>福利社</span>
+              </div>
+              <img src="../../../public/imgs/goodsSort/new2.png" alt />
+            </div>
+            <div class="all-right-all all-right-bottom">
+              <div class="text">
+                <span>新人拼团</span>
+              </div>
+              <img src="../../../public/imgs/goodsSort/new2.png" alt />
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
   </div>
 </template>
 
@@ -184,7 +191,8 @@ export default {
   },
   data() {
     return {
-      isShowNavAll: false //全部频道
+      isShowNavAll: false ,//全部频道
+      // rotate:false
     };
   },
   methods: {
@@ -195,9 +203,7 @@ export default {
       this.isShowNavAll = !this.isShowNavAll;
     },           // 跳转到search页面
     goSearch() {
-      this.$router.replace("/search");
-      
-     
+      this.$router.replace("/search");   
     },
   },
   mounted() {
@@ -209,6 +215,16 @@ export default {
           scrollX: true
         })
       }
+    });
+
+    this.$nextTick(() => {
+      if (!this.scroll2) {
+        this.scroll2 = new BScroll(this.$refs.wrapper2, {
+          click: true,
+          scrollY:true
+        })
+      }
+      console.log(this.scroll2)
     });
     
   }
@@ -351,93 +367,102 @@ export default {
     img
       width 30px
       height 30px
-  .ensure
-    box-sizing border-box
-    width 750px
-    height 72px
-    padding 10px 30px
-    display flex
-    align-items center
-    background-color white
-    .ensureItem
-      flex 1
-      width 184px
-      height 32px
-      img
-        width 32px
-        height 32px
-        vertical-align middle
-        margin-right 10px
-  .goodsSort
-    width 100%
-    height 373px
-    background-color white
-    ul
-      width 100%
-      height 373px
-      display flex
-      flex-wrap wrap
-      padding 10px 50px
-      li
-        width 110px
-        height 156px
-        margin-right 30px
-        img
-          width 110px
-          height 110px
-        p
-          width 110px
-          height 36px
-          margin-top 10px
-  .newPeople
-    width 100%
-    height 558px
-    background-color white
-    margin-top 10px
-    padding 10px 30px
-    p
-      width 100%
-      height 90px
-      text-align center
-      line-height 90px
-      padding 10px 0px
-      font-size 30px
-    .newPeople-all
-      width 100%
-      height 438px
-      display flex
-      .all-left
-        width 343px
-        height 434px
-        background-color #F9E9CF
-        text-align center
-        div
-          height 78px
-          line-height 78px
-        img
-          width 258px
-          height 257px
-      .all-right
-        width 343px
-        height 434px
-        .all-right-all
-          overflow hidden
-          width 343px
-          height 217px
-          .text
-            margin-left 30px
-            height 20px
-            margin-top 30px
-            // text-align center
-            span
-              font-size 30px
+      transition transform 0.5s
+    .jiantou
+      transform rotate(180deg)
+  .hua-view
+    height 1088px
+    // background-color yellowgreen
+    margin-top 20px
+    .hua-view-inside
+      .ensure
+        box-sizing border-box
+        width 750px
+        height 72px
+        padding 10px 30px
+        display flex
+        align-items center
+        background-color white
+        .ensureItem
+          flex 1
+          width 184px
+          height 32px
           img
-            width 200px
-            height 200px
-            float right
+            width 32px
+            height 32px
             vertical-align middle
-        .all-right-top
-          background-color #FBE2D3
-        .all-right-bottom
-          background-color #FFECC2
+            margin-right 10px
+      .goodsSort
+        width 100%
+        height 373px
+        background-color white
+        ul
+          width 100%
+          height 373px
+          display flex
+          flex-wrap wrap
+          padding 10px 50px
+          li
+            width 110px
+            height 156px
+            margin-right 30px
+            img
+              width 110px
+              height 110px
+            p
+              width 110px
+              height 36px
+              margin-top 10px
+      .newPeople
+        width 100%
+        height 558px
+        background-color white
+        margin-top 10px
+        padding 10px 30px
+        p
+          width 100%
+          height 90px
+          text-align center
+          line-height 90px
+          padding 10px 0px
+          font-size 30px
+        .newPeople-all
+          width 100%
+          height 438px
+          display flex
+          .all-left
+            width 343px
+            height 434px
+            background-color #F9E9CF
+            text-align center
+            div
+              height 78px
+              line-height 78px
+            img
+              width 258px
+              height 257px
+          .all-right
+            width 343px
+            height 434px
+            .all-right-all
+              overflow hidden
+              width 343px
+              height 217px
+              .text
+                margin-left 30px
+                height 20px
+                margin-top 30px
+                // text-align center
+                span
+                  font-size 30px
+              img
+                width 200px
+                height 200px
+                float right
+                vertical-align middle
+            .all-right-top
+              background-color #FBE2D3
+            .all-right-bottom
+              background-color #FFECC2
+
 </style>

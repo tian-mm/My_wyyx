@@ -2,7 +2,8 @@
 import {
   RECEIVE_LIST,
   RECEIVE_KEYWORD,
-  RECEIVE_DEFAULT_KEYWORD
+  RECEIVE_DEFAULT_KEYWORD,
+  RECEIVE_RECOMMEND
 } from "./mutations-type"
 
 
@@ -21,5 +22,9 @@ export default {
   // 获取默认显示搜索列表和热词
   [RECEIVE_DEFAULT_KEYWORD](state, defaultkeyWord) {
     state.defaultkeyWord = defaultkeyWord
+  },
+  // 推荐列表
+  [RECEIVE_RECOMMEND](state, recommendList){
+    state.recommendList = recommendList
   }
 }

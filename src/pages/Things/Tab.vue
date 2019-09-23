@@ -4,16 +4,12 @@
     <div ref="wrapper" class="thingsNav">
       <ul class="thingsNav-list">
         <li
-          class="item"
-          :class="{active:isActive === li.id}"
+          :class="{'active':isActive === li.id}"
           v-for="(li,index) in navlist"
           :key="li.id"
-          @click="showNavView(index,li.id)"
+          @click="showNavView(li.id)"
         >
-        <!--  -->
-        <router-link :to="`/things/tab/navitem/${li.id}`">{{li.title}}</router-link>
-          <!-- 滑块 -->
-          <div :class="{silder:isActive===index}"></div>
+        <router-link :class="{'active':isActive === li.id}" :to="`/things/tab/navitem/${li.id}`">{{li.title}}</router-link>
         </li>
       </ul>
     </div>
@@ -31,6 +27,7 @@ export default {
     return {
       isActive:0, //默认显示第一个文本
       navlist: [] ,//列表
+      // index:1   //默认情况,索引为1
       // id:null
     };
   },
@@ -51,8 +48,9 @@ export default {
   },
   methods: {
     showNavView(id){
+      // this.index = index
       this.isActive = id
-      this.$router.push(`/things/tab/navitem/${id}`)
+      // this.$router.push(`/things/tab/navitem/${id}`)
     }
   },
 };
@@ -67,22 +65,25 @@ export default {
   padding 0px 20px
   position relative
   border-top 5px solid #ccc
+  z-index 9
   .thingsNav-list
     position absolute
     display flex
     height 80px
     li
       margin-right 20px
-      height 80px
+      height 70px
       white-space nowrap
       margin-left 20px
       position relative
+      font-size 30px
       &:last-child
         margin-left 20px
-      span
-        font-size 30px
-      &.active
-        color #B4282D
-        border-bottom 5px solid #B4282D
+      a
+        display inline-block
+        color black
+        &.active
+          color #B4282D
+          border-bottom 5px solid #B4282D
     
 </style>

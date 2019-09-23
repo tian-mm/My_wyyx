@@ -8,14 +8,14 @@
     </div>
     <div class="guide_item">
       <a  @click="goto('/classify')">
-        <i class="icon icon_classify" :class="{'on':$route.path === '/classify'}"></i>
-        <span :class="{'active':$route.path === '/classify'}">分类</span>
+      <i class="icon icon_classify" :class="{'on':$route.path.indexOf('/classify') !== -1}"></i>
+        <span :class="{'active':$route.path.indexOf('/classify') !== -1}">分类</span>
       </a>
     </div>
     <div class="guide_item">
       <a  @click="goto('/things')">
-        <i class="icon icon_things" :class="{'on':$route.path === '/things'}"></i>
-        <span :class="{'active':$route.path === '/things'}">实物</span>
+        <i class="icon icon_things" :class="{'on':$route.path.indexOf('/things') !== -1}"></i>
+        <span :class="{'active':$route.path.indexOf('/things') !== -1}">实物</span>
       </a>
     </div>
     <div class="guide_item">

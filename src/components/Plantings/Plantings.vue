@@ -50,9 +50,9 @@ export default {
         // 如果需要分页器
         pagination: {
           // 社置分页器的容器
-          el: ".swiper-pagination"
+          el: ".swiper-pagination",
           // 设置分页器的样式
-          // type:'bullets'
+          type:'bullets'
         }
       });
     });
@@ -76,4 +76,11 @@ export default {
       img
         width 100%
         height 370px
+</style>
+<style lang="stylus" rel="stylesheet/stylus">
+.swiper-pagination-bullet
+  width 40px
+  height 8px
+  border-radius 0
+  background-color white
 </style>

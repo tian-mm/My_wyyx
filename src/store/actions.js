@@ -2,13 +2,15 @@
 import {
   reqClassify,
   reqKeyWord,
-  reqSearchAndHot
+  reqSearchAndHot,
+  reqRcommend
 } from '../api/index.js'
 // 引入
 import {
   RECEIVE_LIST,
   RECEIVE_KEYWORD,
-  RECEIVE_DEFAULT_KEYWORD
+  RECEIVE_DEFAULT_KEYWORD,
+  RECEIVE_RECOMMEND
 } from "./mutations-type"
 // 间接修改状态数据
 export default {
@@ -40,6 +42,14 @@ export default {
     if (result.code === "200") {
       const defaultkeyWord = result.data
       commit(RECEIVE_DEFAULT_KEYWORD, defaultkeyWord)
+    }
+  },
+  // 推荐列表
+  async getRecommend({commit}){
+    const result = await reqRcommend(1,5)
+    if (result.code === '200') {
+      const recommendList = result.data.result
+      commit(RECEIVE_RECOMMEND, recommendList)
     }
   }
 

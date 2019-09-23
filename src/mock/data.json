@@ -42,13 +42,8 @@
                     "img": "https://yanxuan.nosdn.127.net/cda4a56526a230055bea8221a6b7ab11.png?imageView&quality=85&thumbnail=144x144"
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196"
-                },
-                {
-                    "photo2": "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                        "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
@@ -93,11 +88,9 @@
                     "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/c7de7e8850dc05df6943a1a39dce2558.jpg?imageView&thumbnail=0x196"
-                }
-            ]
+             "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                 "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+             ]
         },
         {
             "id": 2,
@@ -141,13 +134,8 @@
                     "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/a8949ce34fdffff34db1b406d2640255.png?imageView&quality=75&thumbnail=0x196"
-                },
-                {
-                    "photo2": "https://yanxuan.nosdn.127.net/fd9bb8dd511541082fac86e84750b45c.jpg?imageView&quality=75&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
@@ -188,17 +176,15 @@
                     "img": "https://yanxuan-item.nosdn.127.net/6b1f7d38b92d931766e2a36e79abcfc6.png?imageView&quality=85&thumbnail=144x144"
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/dec6ff5ae8bae410809598950ba1f5b4.jpg?imageView&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
             "id": 4,
             "code": 2,
             "title": "居家生活",
-            "titleList": [
+            "list": [
                 {
                     "titleName": "秋冬好物",
                     "titleItem": [
@@ -339,17 +325,15 @@
                     ]
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/61932db76f2cd031cb6396408f803808.jpg?imageView&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
             "id": 5,
             "code": 2,
             "title": "服饰鞋包",
-            "titleList": [
+            "list": [
                 {
                     "titleName": "当季热销",
                     "titleItem": [
@@ -498,17 +482,15 @@
                     ]
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/71e3d7451dca16699a5df4d9f51ea9c0.jpg?imageView&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
             "id": 6,
             "code": 2,
             "title": "美食酒水",
-            "titleList": [
+            "list": [
                 {
                     "titleName": "精品美食",
                     "titleItem": [
@@ -657,17 +639,15 @@
                     ]
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/e71c18948044771a7ebd4c9cc551ce8a.png?imageView&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
             "id": 7,
             "code": 2,
             "title": "个护清洁",
-            "titleList": [
+            "list": [
                 {
                     "titleName": "好物精选",
                     "titleItem": [
@@ -812,17 +792,15 @@
                     ]
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/73e8dfdda753de91e028da67a0963c1a.png?imageView&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
             "id": 8,
             "code": 2,
             "title": "母婴亲子",
-            "titleList": [
+            "list": [
                 {
                     "titleName": "婴童精选",
                     "titleItem": [
@@ -971,17 +949,15 @@
                     ]
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/99818d29b6d1eb03477ba2874a119d6d.jpg?imageView&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
             "id": 9,
             "code": 2,
             "title": "运动旅行",
-            "titleList": [
+            "list": [
                 {
                     "titleName": "当季热销",
                     "titleItem": [
@@ -1143,17 +1119,15 @@
                     ]
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/dc1a495164dc517203f086356e4a6291.jpg?imageView&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
             "id": 10,
             "code": 2,
             "title": "数码家电",
-            "titleList": [
+            "list": [
                 {
                     "titleName": "当季热销",
                     "titleItem": [
@@ -1315,17 +1289,15 @@
                     ]
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/dc1a495164dc517203f086356e4a6291.jpg?imageView&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         },
         {
             "id": 11,
             "code": 2,
             "title": "全球特色",
-            "titleList": [
+            "list": [
                 {
                     "titleName": "当季热销",
                     "titleItem": [
@@ -1487,21 +1459,19 @@
                     ]
                 }
             ],
-            "photos": [
-                {
-                    "photo1": "https://yanxuan.nosdn.127.net/dc1a495164dc517203f086356e4a6291.jpg?imageView&thumbnail=0x196"
-                }
+            "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+                "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
             ]
         }
     ],
     "things": [
         {
                 "id": 0,
-                "title": "家庭装"
+                "title": "推荐"
             },
             {
                 "id": 1,
-                "title": "推荐"
+                "title": "家装节"
             },
             {
                 "id": 2,
