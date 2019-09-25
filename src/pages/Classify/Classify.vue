@@ -18,8 +18,12 @@
           </li>
         </ul>
       </div>
-      <!-- 右侧滑动 -->
-      <router-view :goodItem='list[currentIndex]'></router-view>
+      <div ref="swipersecond" class="classify-content-right">
+        <div>
+         <!-- 右侧滑动 -->
+        <router-view :goodItem='list[currentIndex]'></router-view>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -66,15 +70,25 @@ export default {
         }
       });
     });
+
+            // 保证下一次DOM渲染完成之后才会执行
+    this.$nextTick(() => {
+      if (!this.scroll) {
+        this.scroll = new BScroll(this.$refs.swipersecond, {
+          click: true
+        });
+      }
+      console.log(this.scroll)
+    })
   },
   methods: {
     goSearch() {
-      this.$router.replace("/search");
+      this.$router.replace("/search")
     },
     goItem(id){
       this.isActive = id
       this.currentIndex = id  //修改data中的索引 --> 为当前点击的索引
-      this.$router.replace(`/classify/classifyright/${id}`)
+      this.$router.replace(`/classify/classifyright/${id}`).catch(err => { })
     }
   },
     computed: {
@@ -152,7 +166,9 @@ export default {
           width 5px
           height 50px
           background-color #ab2b2b
-
-     
+      .classify-content-right
+        width 528px
+        height 573px
+        // .content-right-inside
 
 </style>

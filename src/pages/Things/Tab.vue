@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- 导航 -->
+    <!-- 导航 --> 
     <div ref="wrapper" class="thingsNav">
       <ul class="thingsNav-list">
         <li
@@ -10,6 +10,7 @@
           @click="showNavView(li.id)"
         >
         <router-link :class="{'active':isActive === li.id}" :to="`/things/tab/navitem/${li.id}`">{{li.title}}</router-link>
+        <!-- <span :class="{'active':isActive === li.id}" @click="$router.replace(`/things/tab/navitem/${li.id}`)">{{li.title}}</span> -->
         </li>
       </ul>
     </div>
@@ -48,9 +49,7 @@ export default {
   },
   methods: {
     showNavView(id){
-      // this.index = index
       this.isActive = id
-      // this.$router.push(`/things/tab/navitem/${id}`)
     }
   },
 };

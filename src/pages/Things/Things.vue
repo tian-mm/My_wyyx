@@ -11,9 +11,6 @@ export default {
 
     }
   },
-  mounted() {
-    this.$store.dispatch('getRecommend')
-  },
 };
 </script>
 

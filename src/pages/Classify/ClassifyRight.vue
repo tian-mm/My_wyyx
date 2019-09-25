@@ -1,5 +1,5 @@
 <template>
-  <div ref="swipersecond" class="classify-content-right">
+
     <!-- 右侧 滑动 -->
     <div class="swiper2">
       <!-- 轮播图 -->
@@ -16,7 +16,7 @@
         <div class="swiper-pagination"></div>
       </div>
       <!-- 没有子标签 -->
-      <ul class="classify-content-list" v-if="goodItem.code ===1">
+      <ul class="classify-content-list" v-if="goodItem.codea ===1">
         <span>{{goodItem.code }}</span>
         <li v-for="(liItem,index) in goodItem.list" :key="index">
           <img :src="liItem.img" alt />
@@ -39,7 +39,7 @@
         </li>
       </ul>
     </div>
-  </div>
+
 </template>
 
 <script>
@@ -57,6 +57,7 @@ export default {
     goodItem: Object //接收传递过来的数据
   },
   mounted() {
+    
     // 页面真正加载完之后再new Swiper对象
     this.$nextTick(() => {
       this.mySwiper = new Swiper(".swiper-container", {
@@ -77,33 +78,24 @@ export default {
       });
     });
 
-        // 保证下一次DOM渲染完成之后才会执行
-    this.$nextTick(() => {
-      if (!this.scroll2) {
-        this.scroll2 = new BScroll(this.$refs.swipersecond, {
-          click: true
-        });
-      }
-      console.log(this.scroll2)
-    })
+
   },
   computed: {
     ...mapState(["list"])
-  }
+  },
+  beforeUpdate() {
+    console.log(this.goodItem)
+  },
 };
 </script>
 
 <style  lang="stylus" rel="stylesheet/stylus" scoped>
-.classify-content-right
-  width 528px
-  height 900px
- 
   .swiper2
     // width 100%
     height 1200px
     position relative
     padding-top 90px
-    padding-bottom -2000px
+    // padding-bottom -2000px
     .swiper-container
       width 528px
       height 192px

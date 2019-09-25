@@ -59,7 +59,6 @@ export default {
       // this.$store.dispatch( "获取到actions对象中的方法名",参数)
       // 使用防抖 --> 搜索时等用户完整输入内容后再发送查询请求
       if (namekeys) {
-        // 防抖,有问题
         if (this.id) {
           clearTimeout(this.id)
         }

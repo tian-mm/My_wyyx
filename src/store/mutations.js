@@ -23,7 +23,7 @@ export default {
   [RECEIVE_DEFAULT_KEYWORD](state, defaultkeyWord) {
     state.defaultkeyWord = defaultkeyWord
   },
-  // 推荐列表
+  // // 推荐列表
   [RECEIVE_RECOMMEND](state, recommendList){
     state.recommendList = recommendList
   }

@@ -22,13 +22,16 @@ import {
 } from 'mint-ui'
 // 声明整为全局组件
 Vue.component(Button.name, Button)
-// 让浏览器不提示
-Vue.config.productionTip = false
+
+Vue.prototype.$eventBus = new Vue()
+
 
 // 引入图片懒加载的插件
-import VueLazyload from 'vue-lazyload'
+// import VueLazyload from 'vue-lazyload'
 // 引入图片
-import loading from '../public/imgs/loading.gif'
+// import loading from '../public/imgs/loading.gif'
+// 让浏览器不提示
+Vue.config.productionTip = false
 new Vue({
   render:h=>h(App),
   router,

@@ -73,14 +73,13 @@ export default {
     .swiper-wrapper
       width 100%
       height 370px
+      // scoped情况-->修改外部的第三方样式,需要使用/deep/
+/deep/.swiper-pagination-bullet
+        width 40px
+        height 8px
+        border-radius 0
+        background-color white
       img
         width 100%
         height 370px
-</style>
-<style lang="stylus" rel="stylesheet/stylus">
-.swiper-pagination-bullet
-  width 40px
-  height 8px
-  border-radius 0
-  background-color white
 </style>

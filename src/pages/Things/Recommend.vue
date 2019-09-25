@@ -8,8 +8,7 @@
             <!-- 左边 -->
             <div class="smallView-left">
               <div class="user-msg">
-                
-                <img :src="topic.avatar" alt />
+                <img :src="topic.avatar" alt/>
                 <span>{{topic.nickname}}</span>
               </div>
               <div class="user-content">
@@ -31,7 +30,6 @@
             </div>
           </div>
         </div>
-
         <!-- 大图的模板 -->
         <div class="li-list bigView" v-show="topic.type===2">
           <div class="user-msg">
@@ -54,15 +52,18 @@
   </div>
 </template>
 <script>
-// 引入
-import { mapState } from "vuex";
+import {mapState} from 'vuex'
 export default {
   data() {
-    return {};
+    return {
+      
+    };
   },
   computed: {
-    ...mapState(["recommendList"])
+    ...mapState(['recommendList'])
   }
+
+
 };
 </script>
 

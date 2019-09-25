@@ -19,6 +19,8 @@ import Index from '../pages/Things/Index.vue'
 import NavItem from '../pages/Things/NavItem.vue'
 // 引入分类右侧商品列表
 import ClassifyRight from '../pages/Classify/ClassifyRight.vue'
+// 引入登录页面
+import Login from '../pages/Profile/Login.vue'
 export default [{
     path: '/firstview',
     component: FirstView,
@@ -34,17 +36,17 @@ export default [{
       isShowFooter: true
     },
     children: [{
-      path: '/classify/classifyright/:id',
-      component: ClassifyRight,
-      meta: {
-        isShowFooter: true
+        path: '/classify/classifyright/:id',
+        component: ClassifyRight,
+        meta: {
+          isShowFooter: true
+        },
       },
-    },
-    {
-      path: '/classify',
-      redirect: '/classify/classifyright/0'
-    }
-  ]
+      {
+        path: '/classify',
+        redirect: '/classify/classifyright/0'
+      }
+    ]
   },
   {
     path: '/things',
@@ -67,7 +69,7 @@ export default [{
           },
           {
             path: '/things/tab',
-            redirect: '/things/tab/navitem/1'
+            redirect: '/things/tab/navitem/0'
           }
         ],
 
@@ -93,6 +95,13 @@ export default [{
   {
     path: '/profile',
     component: Profile,
+    meta: {
+      isShowFooter: false
+    }
+  },
+  {
+    path: '/login',
+    component: Login,
     meta: {
       isShowFooter: false
     }

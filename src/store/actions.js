@@ -46,7 +46,7 @@ export default {
   },
   // 推荐列表
   async getRecommend({commit}){
-    const result = await reqRcommend(1,5)
+    const result = await reqRcommend(1,3)
     if (result.code === '200') {
       const recommendList = result.data.result
       commit(RECEIVE_RECOMMEND, recommendList)

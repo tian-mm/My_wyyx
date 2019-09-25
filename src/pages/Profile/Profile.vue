@@ -6,7 +6,6 @@
         class="img"
         slot="logo"
         src="../../../public/imgs/logo/logo.png"
-        alt
       />
     </Header>
 
@@ -80,13 +79,14 @@
               v-show="errors.has('code')"
             >{{ errors.first('code') }}</span>
           </div>
-          <button>获取验证码</button>
+          <!-- 点击发送验证码 -->
+          <button @click.prevent="sendCode">{{computerTime>0?`已发送(${computerTime}s)`:'获取验证码'}}</button>
         </div>
         <div class="problem">
           <span>遇到问题?</span>
           <span @click="loginType=4">使用密码验证登录</span>
         </div>
-        <mt-button class="loginBtn" type="default">登录</mt-button>
+        <mt-button class="loginBtn" type="default" @click.prevent="PhoneLogin">登录</mt-button>
         <div class="agree">
           <button @click="isShowGou=!isShowGou">
             <img v-show="isShowGou" src="../../../public/imgs/duihao.png" alt />
@@ -144,7 +144,7 @@
           <span>注册账号</span>
           <span>忘记密码</span>
         </div>
-        <mt-button class="loginBtn" type="default">登录</mt-button>
+        <mt-button class="loginBtn" type="default" @click.prevent="PhoneLogin">登录</mt-button>
         <div class="otherLogin" @click="loginType=1">其他登录方式></div>
       </div>
     </div>
@@ -195,7 +195,7 @@
           <span>忘记密码?</span>
           <span>短信快捷登录</span>
         </div>
-        <mt-button class="loginBtn" type="default">登录</mt-button>
+        <mt-button class="loginBtn" type="default" @click.prevent="PhoneLogin">登录</mt-button>
         <div class="otherLogin" @click="loginType=1">
           其他登录方式
           <span>></span>
@@ -205,6 +205,8 @@
   </div>
 </template>
 <script>
+// 引入api
+import { reqPhoneCodeLogin, reqEmailPwdLogin, reqPhonePwd } from "../../api";
 export default {
   data() {
     return {
@@ -215,8 +217,64 @@ export default {
       phone: "", //默认手机号为空
       code: "", //短信验证码
       email: "", //邮箱账号
-      pwd: "" //密码
+      pwd: "", //密码
+      computerTime: 0 //默认手机验证码的事件为0
     };
+  },
+  methods: {
+    sendCode() {
+      // 当点击修改的时候,修改倒计时的状态
+      this.computerTime = 10;
+      this.timer = setInterval(() => {
+        this.computerTime--;
+        if (this.computerTime < 0) {
+          this.computerTime = 0;
+        }
+        // 清除定时器
+        clearInterval(this.timer);
+      }, 1000);
+    },
+    async PhoneLogin() {
+      let loginMsg;
+      // 获取data中的数据
+      const { phone, code, email, pwd, loginType } = this;
+      // 判断是那种方式登录
+      if (loginType === 2) {
+        //手机号验证码登录
+        loginMsg = ["phone", "code"];
+      } else if (loginType === 3) {
+        //邮箱密码
+        loginMsg = ["email", "pwd"];
+      } else {
+        //手机号密码
+        loginMsg = ["phone", "pwd"];
+      }
+      // 检查表单是否验证通过->成功则返回true
+      const success = this.$validator.validateAll(loginMsg);
+      if (success) {
+        let result;
+        if (loginType === 2) {
+          const phm = { phone: phone, code: code };
+          result = await reqPhoneCodeLogin(phm);
+          console.log(result);
+        } else if (loginType === 3) {
+          const emp = { email: email, pwd: pwd };
+          result = await reqEmailPwdLogin(email, pwd);
+          console.log(result);
+        } else {
+          const a = { phone: phone, pwd: pwd };
+          result = await reqPhonePwd(a);
+          console.log(result);
+        }
+          if (result) {
+          console.log(result);
+          this.$router.replace('/login');
+        } else {
+          console.log("发送失败");
+        }
+      }
+
+    }
   }
 };
 </script>
